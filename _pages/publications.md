@@ -5,7 +5,17 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Research Publications
+{% if author.googlescholar %}
+  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% endif %}
+
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<!-- ## Research Publications
 
 9. Sommerville, Parker J.W.; Li, Yilin; Don, Ban Xuan; Zhang, Yongcao; Onorato, Jonathan, W.; **Tatum, Wesley K.**; Balzer, Alex H.; Stingelin, Natalie; Patel, Shrayesh, N.; Nealey, Paul F.; Luscombe, Christine, K. Elucidating the Influence of Side-Chain Circular Distribution on the Crack Onset Strain and Hole Mobility of Near-Amorphous Indacenodithiophene Copolymers. _Marcromolecules_, 2020, 53 (17), 7511-7518.
 
@@ -32,4 +42,4 @@ Haydon, Ian; Herpoldt, Karla-Louise; Hosseinzadeh, Parisa; Kang, Christine; Kang
 
 ## Dissertation
 
-**Tatum, Wesley K.** Establishing Quantitative Relationships Between Composition, Morphology, and Performance in Polymer Electronics. 2020, [Link to Dissertation](https://digital.lib.washington.edu/researchworks/handle/1773/46501)
+**Tatum, Wesley K.** Establishing Quantitative Relationships Between Composition, Morphology, and Performance in Polymer Electronics. 2020, [Link to Dissertation](https://digital.lib.washington.edu/researchworks/handle/1773/46501) -->

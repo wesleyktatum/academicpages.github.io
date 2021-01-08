@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-![Resume as of February 2020](/images/Tatum_CV.jpg)
+![](/images/Tatum_CV.jpg)
 ![](/images/Tatum_CV2.jpg)
 
 <!-- {% include base_path %}
