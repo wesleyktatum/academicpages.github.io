@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Wesley K. Tatum"
 title_separator          : "-"
 name                     : &name "Wesley K. Tatum"
-description              : &description "PhD researcher at the nexus of materials and data science"
+description              : &description "Postdoc researcher at the nexus of materials and data science"
 url                      : https://wesleyktatum.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "wesleyktatum/wesleyktatum.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Wesley K. Tatum"
   avatar           : "Professional_picture.png"
-  bio              : "PhD researcher at the nexus of materials and data science"
+  bio              : "Postdoc researcher at the nexus of materials and data science"
   location         : "Seattle, WA"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
